@@ -1,0 +1,8 @@
+print("Addition:", 11 + 6)
+print("Subtraction:", 11 - 6)
+print("Multiplication:", 11 * 6)
+print("Exponent. 11 to the power 6:", 11 ** 6)
+print("Division(float) of number:", 11 / 6)
+print("Floor division of number:", 11 // 6)
+print("Modulus:", 11 % 6)
+print("Boolean:", 11 <= 6)
