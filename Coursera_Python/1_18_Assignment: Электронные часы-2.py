@@ -1,7 +1,5 @@
-N = int(input())
-n = N % (3600 * 24)
-if n > 0:
-    hours = n // 3600
-    min = n % 3600 // 60
-    sec = n % 60
-    print(hours,':', min // 10, ':', sec // 10, sec % 10, sep='')
+n = int(input())
+print(((n // 60) // 60) % 24, end=':')
+print((((n // 60) % 60) // 10), end='')
+print((((n // 60) % 60) % 10), end=':')
+print(((n % 60) // 10), ((n % 60) % 10), sep='')
