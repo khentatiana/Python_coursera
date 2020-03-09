@@ -1,3 +1,3 @@
 N_speed = int(input())
 M_distance = int(input())
-print(M_distance // N_speed + 1)
+print((M_distance + N_speed - 1) // N_speed)
