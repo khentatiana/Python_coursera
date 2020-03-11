@@ -1,0 +1,8 @@
+Programming Assignment: 100A
+Passed · 100/100 points
+Deadline
+Pass this assignment by Mar 8, 11:59 PM PDT
+InstructionsMy submissionDiscussions
+Ограничение по времени	Ограничение по памяти
+1000 мс	65536 кб
+Запишите букву 'A' (латинскую, заглавную) 100 раз подряд. Сдайте на проверку программу, которая выводит эту строчку (только буквы, без кавычек или пробелов).
